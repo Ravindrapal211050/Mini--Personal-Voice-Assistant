@@ -4,7 +4,8 @@ import pyjokes
 import webbrowser
 import os
 import time
-import pyautogui
+if os.environ.get('RENDER') != 'true':
+    import pyautogui
 import requests
 import random
 import threading

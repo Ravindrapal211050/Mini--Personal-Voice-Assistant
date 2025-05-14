@@ -11,6 +11,7 @@ wikipedia-api==0.6.0
 newsapi-python==0.2.7
 aiohttp==3.9.5
 cachetools==5.5.0
+gunicorn
 
 
 #pip install -r requirements.txt
